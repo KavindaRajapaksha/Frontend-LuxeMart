@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+.navbar {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  line-height: 20px;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-block-end: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+
+}
+
+.active {
+  border-block-end: 2px solid black;
+}
+
+.logging {
+  color: white;
+  font-size: small;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 0 0.5rem;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  margin-left: -160px;
+}
+
+.custom-navbar {
+  background-color: #5efc63 !important;
+}
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-block-size: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-block-start: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.header-top-strip {
+  background-color: black;
+  border-block-end: 1px solid;
+  box-shadow: 0 6px 6px -6px gray;
+}
+
+.header-upper {
+  background-color: rgb(254, 246, 246);
+}
+
+.btn-outline-success {
+  background-color: #00B207;
+  color: rgb(244, 248, 244);
+}
+
+
+.btn-outline-success:hover {
+  background-color: #eca21a;
+  ;
+  color: #131921;
+}
+
+.form-control {
+  inline-size: 300px;
+}
+
+.vertical-divider {
+  block-size: 40px;
+  border-inline-start: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.badge-circle {
+  border-radius: 50%;
+  padding: 5px 8px;
+}
+
+.bg-green {
+  background-color: #00B207;
+}
+
+/* =================================
+======== Home Page ======= */
+.main-banner {
+  left: 0px;
+}
+
+.main-banner-content {
+  top: 5%;
+  left: 461px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.main-banner-content h3 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 64px;
+  margin: 20px 40px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.main-banner-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.discount {
+  color: rgb(255, 3, 3);
+}
+
+@media (max-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-banner-content {
+    top: 5%;
+    left: 0%;
+    max-width: 80%;
+  }
+
+  .main-banner-content h3 {
+    font-size: 5vw;
+    margin: 1vh 2vw;
+  }
+}
+
+.button-outline-success {
+  background-color: #00B207;
+  color: rgb(251, 250, 250);
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 110px;
+}
+
+.button-outline-success:hover {
+  background-color: #eca21a;
+  ;
+  color: #131921;
+}
+
+
+
+.small-banner {
+  left: 91px;
+}
+
+.small-banner-content {
+  top: 5%;
+  left: 400px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.small-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+}
+
+.small-banner-content h3 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 64px;
+  color: var(--color-bf4800);
+  margin: 20px 40px;
+  letter-spacing: -2px;
+}
+
+
+/* =================================
+======== Home wrapper 2 ======= */
+
+.margin-wrapper-2 {
+  background-color: rgb(255, 255, 255, 0.7);
+  margin-top: -90px;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 1;
+  margin-left: 70px;
+  margin-right: 480px;
+}
